@@ -1,6 +1,10 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.hilt.android)
+    alias(libs.plugins.kotlin.compose) apply false
+    alias(libs.plugins.kotlin.serialization) apply false
 }
 
 android {
@@ -37,12 +41,71 @@ android {
 
 dependencies {
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
+    implementation(libs.core.ktx)
+    implementation(platform(libs.kotlin.bom))
+    implementation(libs.lifecycle.runtime.ktx)
+    implementation(libs.activity.compose)
+    implementation(platform(libs.compose.bom))
+    implementation(libs.compose.ui)
+    implementation(libs.compose.ui.graphics)
+    implementation(libs.compose.ui.tooling.preview)
+    implementation(libs.material3)
+    implementation(libs.paging.compose)
+    implementation(libs.paging.runtime.ktx)
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(libs.ext.junit)
+    androidTestImplementation(libs.espresso.core)
+    androidTestImplementation(platform(libs.compose.bom))
+    androidTestImplementation(libs.compose.ui.test.junit4)
+    debugImplementation(libs.compose.ui.tooling)
+    debugImplementation(libs.compose.ui.test.manifest)
+
+    //Splash Api
+    implementation(libs.splashscreen)
+
+    //Compose Navigation
+    implementation(libs.navigation.compose)
+
+    //Dagger Hilt
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
+    implementation(libs.hilt.navigation.compose)
+
+    //Coil
+    implementation(libs.coil.compose)
+
+    //Datastore
+    implementation(libs.datastore.preferences)
+
+    //Compose Foundation
+    implementation(libs.foundation)
+
+    //Accompanist
+    implementation(libs.accompanist.systemuicontroller)
+
+    //Paging 3
+    implementation(libs.paging.runtime.ktx)
+    implementation(libs.paging.compose)
+
+    //Room
+    implementation(libs.room.runtime)
+    kapt(libs.room.compiler)
+    kapt(libs.kotlinx.metadata.jvm)
+    implementation(libs.room.ktx)
+
+    //KTOR
+    implementation(libs.ktor.client.core)
+    implementation(libs.ktor.client.cio)
+
+    //Kotlinx Serialization
+    implementation(libs.kotlinx.serialization.json)
+
+    //KTOR Content negotiation
+    implementation(libs.ktor.client.content.negotiation)
+
+    // JSON Serialization
+    implementation(libs.ktor.serialization.kotlinx.json)
+    implementation(libs.ktor.serialization)
 
     // Timber
     implementation(libs.timber)
