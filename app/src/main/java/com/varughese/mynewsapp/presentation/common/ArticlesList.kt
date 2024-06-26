@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.paging.LoadState
@@ -24,9 +25,9 @@ fun ArticlesList(
     if (articles.isEmpty()){
         EmptyScreen()
     }
-    LazyColumn(
+    LazyRow(
         modifier = modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.spacedBy(MediumPadding1),
+        horizontalArrangement = Arrangement.spacedBy(MediumPadding1),
         contentPadding = PaddingValues(all = ExtraSmallPadding2)
     ) {
         items(
@@ -51,9 +52,9 @@ fun ArticlesList(
 
 
     if (handlePagingResult) {
-        LazyColumn(
+        LazyRow(
             modifier = modifier.fillMaxSize(),
-            verticalArrangement = Arrangement.spacedBy(MediumPadding1),
+            horizontalArrangement = Arrangement.spacedBy(MediumPadding1),
             contentPadding = PaddingValues(all = ExtraSmallPadding2)
         ) {
             items(
