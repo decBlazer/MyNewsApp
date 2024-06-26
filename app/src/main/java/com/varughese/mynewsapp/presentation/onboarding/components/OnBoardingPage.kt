@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.onboarding.components
+package com.varughese.mynewsapp.presentation.onboarding.components
 
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import androidx.compose.foundation.Image
@@ -17,11 +17,11 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import com.loc.newsapp.R
-import com.loc.newsapp.presentation.Dimens.MediumPadding1
-import com.loc.newsapp.presentation.Dimens.MediumPadding2
-import com.loc.newsapp.presentation.onboarding.Page
-import com.loc.newsapp.ui.theme.NewsAppTheme
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.presentation.Dimens.MediumPadding1
+import com.varughese.mynewsapp.presentation.Dimens.MediumPadding2
+import com.varughese.mynewsapp.presentation.onboarding.Page
+import com.varughese.mynewsapp.ui.theme.NewsAppTheme
 
 @Composable
 fun OnBoardingPage(
@@ -42,13 +42,13 @@ fun OnBoardingPage(
             modifier = Modifier.padding(horizontal = MediumPadding2),
             text = page.title,
             style = MaterialTheme.typography.displaySmall.copy(fontWeight = FontWeight.Bold),
-            color = colorResource(id = R.color.display_small)
+            color = colorResource(id = R.color.black)
         )
         Text(
             modifier = Modifier.padding(horizontal = MediumPadding2),
             text = page.description,
             style = MaterialTheme.typography.bodyMedium,
-            color = colorResource(id = R.color.text_medium)
+            color = colorResource(id = R.color.purple_200)
         )
     }
 }

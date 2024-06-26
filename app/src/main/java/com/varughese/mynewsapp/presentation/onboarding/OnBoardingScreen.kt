@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.onboarding
+package com.varughese.mynewsapp.presentation.onboarding
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Arrangement
@@ -19,11 +19,11 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.loc.newsapp.presentation.Dimens
-import com.loc.newsapp.presentation.common.NewsButton
-import com.loc.newsapp.presentation.common.NewsTextButton
-import com.loc.newsapp.presentation.onboarding.components.OnBoardingPage
-import com.loc.newsapp.presentation.onboarding.components.PagerIndicator
+import com.varughese.mynewsapp.presentation.Dimens
+import com.varughese.mynewsapp.presentation.common.NewsButton
+import com.varughese.mynewsapp.presentation.common.NewsTextButton
+import com.varughese.mynewsapp.presentation.onboarding.components.OnBoardingPage
+import com.varughese.mynewsapp.presentation.onboarding.components.PagerIndicator
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalFoundationApi::class)

@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.details.components
+package com.varughese.mynewsapp.presentation.details.components
 
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -15,8 +15,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.loc.newsapp.R
-import com.loc.newsapp.ui.theme.NewsAppTheme
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.ui.theme.NewsAppTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -31,8 +31,8 @@ fun DetailsTopBar(
         modifier = Modifier.fillMaxWidth(),
         colors = TopAppBarDefaults.mediumTopAppBarColors(
             containerColor = Color.Transparent,
-            actionIconContentColor = colorResource(id = R.color.body),
-            navigationIconContentColor = colorResource(id = R.color.body),
+            actionIconContentColor = colorResource(id = R.color.black),
+            navigationIconContentColor = colorResource(id = R.color.black),
         ),
         title = {},
         navigationIcon = {
@@ -71,7 +71,7 @@ fun DetailsTopBar(
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
 @Composable
 fun DetailsTopBarPreview() {
-    NewsAppTheme(dynamicColor = false) {
+    NewsAppTheme {
         DetailsTopBar(
             onShareClick = {  },
             onBookMarkClick = {  },

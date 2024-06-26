@@ -1,11 +1,11 @@
-package com.loc.newsapp.presentation.search
+package com.varughese.mynewsapp.presentation.search
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.cachedIn
-import com.loc.newsapp.domain.usecases.news.SearchNews
+import com.varughese.mynewsapp.domain.usecases.news.SearchNews
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

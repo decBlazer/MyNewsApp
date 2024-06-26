@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.news_navigator
+package com.varughese.mynewsapp.presentation.news_navigator
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.fillMaxSize
@@ -19,20 +19,22 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.paging.compose.collectAsLazyPagingItems
-import com.loc.newsapp.R
-import com.loc.newsapp.domain.model.Article
-import com.loc.newsapp.presentation.bookmark.BookmarkScreen
-import com.loc.newsapp.presentation.bookmark.BookmarkViewModel
-import com.loc.newsapp.presentation.details.DetailsScreen
-import com.loc.newsapp.presentation.details.DetailsViewModel
-import com.loc.newsapp.presentation.home.HomeScreen
-import com.loc.newsapp.presentation.home.HomeViewModel
-import com.loc.newsapp.presentation.navgraph.Route
-import com.loc.newsapp.presentation.news_navigator.components.BottomNavigationItem
-import com.loc.newsapp.presentation.news_navigator.components.NewsBottomNavigation
-import com.loc.newsapp.presentation.search.SearchScreen
-import com.loc.newsapp.presentation.search.SearchViewModel
-import androidx.paging.compose.collectAsLazyPagingItems
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.domain.model.Article
+import com.varughese.mynewsapp.presentation.bookmark.BookmarkScreen
+import com.varughese.mynewsapp.presentation.bookmark.BookmarkViewModel
+import com.varughese.mynewsapp.presentation.details.DetailsScreen
+import com.varughese.mynewsapp.presentation.details.DetailsViewModel
+import com.varughese.mynewsapp.presentation.filter.FilterScreen
+import com.varughese.mynewsapp.presentation.filter.FilterViewModel
+import com.varughese.mynewsapp.presentation.home.HomeScreen
+import com.varughese.mynewsapp.presentation.home.HomeViewModel
+import com.varughese.mynewsapp.presentation.navgraph.Route
+import com.varughese.mynewsapp.presentation.news_navigator.components.BottomNavigationItem
+import com.varughese.mynewsapp.presentation.news_navigator.components.NewsBottomNavigation
+import com.varughese.mynewsapp.presentation.search.SearchScreen
+import com.varughese.mynewsapp.presentation.search.SearchViewModel
+import java.util.logging.Filter
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -42,7 +44,8 @@ fun NewsNavigator() {
         listOf(
             BottomNavigationItem(icon = R.drawable.ic_home, text = "Home"),
             BottomNavigationItem(icon = R.drawable.ic_search, text = "Search"),
-            BottomNavigationItem(icon = R.drawable.ic_bookmark, text = "Bookmark")
+            BottomNavigationItem(icon = R.drawable.ic_bookmark, text = "Bookmark"),
+            BottomNavigationItem(icon = R.drawable.ic_preferences, text = "Filter")
         )
     }
 
@@ -55,6 +58,7 @@ fun NewsNavigator() {
         Route.HomeScreen.route -> 0
         Route.SearchScreen.route -> 1
         Route.BookmarkScreen.route -> 2
+        Route.FilterScreen.route -> 3
         else -> 0
     }
 
@@ -62,7 +66,8 @@ fun NewsNavigator() {
     val isBottomBarVisible = remember(key1 = backStackState) {
         backStackState?.destination?.route == Route.HomeScreen.route ||
                 backStackState?.destination?.route == Route.SearchScreen.route ||
-                backStackState?.destination?.route == Route.BookmarkScreen.route
+                backStackState?.destination?.route == Route.BookmarkScreen.route ||
+                backStackState?.destination?.route == Route.FilterScreen.route
     }
 
 
@@ -86,6 +91,11 @@ fun NewsNavigator() {
                         2 -> navigateToTab(
                             navController = navController,
                             route = Route.BookmarkScreen.route
+                        )
+
+                        3 -> navigateToTab(
+                            navController = navController,
+                            route = Route.FilterScreen.route
                         )
                     }
                 }
@@ -158,6 +168,11 @@ fun NewsNavigator() {
                         )
                     }
                 )
+            }
+            composable(route = Route.FilterScreen.route) {
+                val viewModel: FilterViewModel = hiltViewModel()
+                OnBackClickStateSaver(navController = navController)
+                FilterScreen(viewModel)
             }
         }
     }

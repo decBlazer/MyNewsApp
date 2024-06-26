@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+secrets.env
+/app/src/main/java/com/varughese/mynewsapp/data/local/secrets.kt

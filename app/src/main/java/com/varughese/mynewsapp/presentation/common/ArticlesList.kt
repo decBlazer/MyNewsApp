@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.common
+package com.varughese.mynewsapp.presentation.common
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -10,10 +10,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
-import com.loc.newsapp.domain.model.Article
-import com.loc.newsapp.presentation.home.components.ArticleCard
-import com.loc.newsapp.presentation.Dimens.ExtraSmallPadding2
-import com.loc.newsapp.presentation.Dimens.MediumPadding1
+import com.varughese.mynewsapp.domain.model.Article
+import com.varughese.mynewsapp.presentation.home.components.ArticleCard
+import com.varughese.mynewsapp.presentation.Dimens.ExtraSmallPadding2
+import com.varughese.mynewsapp.presentation.Dimens.MediumPadding1
 
 @Composable
 fun ArticlesList(

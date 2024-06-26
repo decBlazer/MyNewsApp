@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.home.components
+package com.varughese.mynewsapp.presentation.home.components
 
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import androidx.compose.foundation.clickable
@@ -26,14 +26,14 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.loc.newsapp.R
-import com.loc.newsapp.domain.model.Article
-import com.loc.newsapp.domain.model.Source
-import com.loc.newsapp.presentation.Dimens.ArticleCardSize
-import com.loc.newsapp.presentation.Dimens.ExtraSmallPadding
-import com.loc.newsapp.presentation.Dimens.ExtraSmallPadding2
-import com.loc.newsapp.presentation.Dimens.SmallIconSize
-import com.loc.newsapp.ui.theme.NewsAppTheme
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.domain.model.Article
+import com.varughese.mynewsapp.domain.model.Source
+import com.varughese.mynewsapp.presentation.Dimens.ArticleCardSize
+import com.varughese.mynewsapp.presentation.Dimens.ExtraSmallPadding
+import com.varughese.mynewsapp.presentation.Dimens.ExtraSmallPadding2
+import com.varughese.mynewsapp.presentation.Dimens.SmallIconSize
+import com.varughese.mynewsapp.ui.theme.NewsAppTheme
 
 @Composable
 fun ArticleCard(
@@ -65,7 +65,7 @@ fun ArticleCard(
                 Text(
                     text = it,
                     style = MaterialTheme.typography.bodyMedium.copy(),
-                    color = colorResource(id = R.color.text_title),
+                    color = colorResource(id = R.color.black),
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis
                 )
@@ -77,7 +77,7 @@ fun ArticleCard(
                     Text(
                         text = it,
                         style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
-                        color = colorResource(id = R.color.body)
+                        color = colorResource(id = R.color.purple_200)
                     )
                 }
                 Spacer(modifier = Modifier.width(ExtraSmallPadding2))
@@ -85,14 +85,14 @@ fun ArticleCard(
                     painter = painterResource(id = R.drawable.ic_time),
                     contentDescription = null,
                     modifier = Modifier.size(SmallIconSize),
-                    tint = colorResource(id = R.color.body)
+                    tint = colorResource(id = R.color.purple_200)
                 )
                 Spacer(modifier = Modifier.width(ExtraSmallPadding))
                 article.publishedAt?.let {
                     Text(
                         text = it,
                         style = MaterialTheme.typography.labelSmall,
-                        color = colorResource(id = R.color.body)
+                        color = colorResource(id = R.color.purple_200)
                     )
                 }
             }
@@ -104,7 +104,7 @@ fun ArticleCard(
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
 @Composable
 fun ArticleCardPreview() {
-    NewsAppTheme(dynamicColor = false) {
+    NewsAppTheme() {
         ArticleCard(
             article = Article(
                 author = "",

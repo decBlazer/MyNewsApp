@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.details
+package com.varughese.mynewsapp.presentation.details
 
 import android.content.Intent
 import android.net.Uri
@@ -23,14 +23,14 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.tooling.preview.Preview
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.loc.newsapp.R
-import com.loc.newsapp.domain.model.Article
-import com.loc.newsapp.domain.model.Source
-import com.loc.newsapp.presentation.Dimens.ArticleImageHeight
-import com.loc.newsapp.presentation.Dimens.MediumPadding1
-import com.loc.newsapp.presentation.details.components.DetailsTopBar
-import com.loc.newsapp.ui.theme.NewsAppTheme
-import com.loc.newsapp.util.UIComponent
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.domain.model.Article
+import com.varughese.mynewsapp.domain.model.Source
+import com.varughese.mynewsapp.presentation.Dimens.ArticleImageHeight
+import com.varughese.mynewsapp.presentation.Dimens.MediumPadding1
+import com.varughese.mynewsapp.presentation.details.components.DetailsTopBar
+import com.varughese.mynewsapp.ui.theme.NewsAppTheme
+import com.varughese.mynewsapp.util.UIComponent
 
 @Composable
 fun DetailsScreen(
@@ -107,7 +107,7 @@ fun DetailsScreen(
                         text = it,
                         style = MaterialTheme.typography.displaySmall,
                         color = colorResource(
-                            id = R.color.text_title
+                            id = R.color.black
                         )
                     )
                 }
@@ -116,7 +116,7 @@ fun DetailsScreen(
                         text = it,
                         style = MaterialTheme.typography.bodyMedium,
                         color = colorResource(
-                            id = R.color.body
+                            id = R.color.purple_500
                         )
                     )
                 }
@@ -128,7 +128,7 @@ fun DetailsScreen(
 @Preview(showBackground = true)
 @Composable
 fun DetailsScreenPreview() {
-    NewsAppTheme(dynamicColor = false) {
+    NewsAppTheme() {
         DetailsScreen(
             article = Article(
                 author = "",

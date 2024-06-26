@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.common
+package com.varughese.mynewsapp.presentation.common
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.loc.newsapp.ui.theme.WhiteGray
+import com.varughese.mynewsapp.ui.theme.WhiteGray
 
 @Composable
 fun NewsButton(

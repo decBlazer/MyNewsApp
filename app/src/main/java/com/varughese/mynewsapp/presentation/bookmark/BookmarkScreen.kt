@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.bookmark
+package com.varughese.mynewsapp.presentation.bookmark
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -12,10 +12,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.font.FontWeight
-import com.loc.newsapp.R
-import com.loc.newsapp.domain.model.Article
-import com.loc.newsapp.presentation.common.ArticlesList
-import com.loc.newsapp.presentation.Dimens.MediumPadding1
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.presentation.common.ArticlesList
+import com.varughese.mynewsapp.presentation.Dimens.MediumPadding1
+import com.varughese.mynewsapp.domain.model.Article
 
 @Composable
 fun BookmarkScreen(
@@ -33,7 +33,7 @@ fun BookmarkScreen(
             text = "Bookmark",
             style = MaterialTheme.typography.displayMedium.copy(fontWeight = FontWeight.Bold),
             color = colorResource(
-                id = R.color.text_title
+                id = R.color.purple_200
             )
         )
 

@@ -1,6 +1,6 @@
-package com.loc.newsapp.presentation.bookmark
+package com.varughese.mynewsapp.presentation.bookmark
 
-import com.loc.newsapp.domain.model.Article
+import com.varughese.mynewsapp.domain.model.Article
 
 data class BookmarkState(
     val articles: List<Article> = emptyList()

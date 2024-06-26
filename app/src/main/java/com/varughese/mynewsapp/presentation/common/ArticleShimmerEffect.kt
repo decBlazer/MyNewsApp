@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.common
+package com.varughese.mynewsapp.presentation.common
 
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
@@ -22,9 +22,9 @@ import androidx.compose.ui.composed
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
-import com.loc.newsapp.R
-import com.loc.newsapp.presentation.Dimens
-import com.loc.newsapp.presentation.Dimens.MediumPadding1
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.presentation.Dimens
+import com.varughese.mynewsapp.presentation.Dimens.MediumPadding1
 
 fun Modifier.shimmerEffect() = composed {
     val transition = rememberInfiniteTransition()

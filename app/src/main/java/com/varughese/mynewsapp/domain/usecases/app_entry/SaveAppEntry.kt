@@ -1,6 +1,6 @@
-package com.loc.newsapp.domain.usecases.app_entry
+package com.varughese.mynewsapp.domain.usecases.app_entry
 
-import com.loc.newsapp.domain.manager.LocalUserManager
+import com.varughese.mynewsapp.domain.manager.LocalUserManager
 import javax.inject.Inject
 
 class SaveAppEntry @Inject constructor(

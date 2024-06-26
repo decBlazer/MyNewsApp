@@ -1,8 +1,8 @@
-package com.loc.newsapp.presentation.onboarding
+package com.varughese.mynewsapp.presentation.onboarding
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.loc.newsapp.domain.usecases.app_entry.SaveAppEntry
+import com.varughese.mynewsapp.domain.usecases.app_entry.SaveAppEntry
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

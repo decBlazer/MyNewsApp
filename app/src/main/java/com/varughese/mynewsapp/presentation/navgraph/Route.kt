@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.navgraph
+package com.varughese.mynewsapp.presentation.navgraph
 
 import androidx.navigation.NamedNavArgument
 
@@ -15,6 +15,8 @@ sealed class Route(
     object BookmarkScreen : Route(route = "bookMarkScreen")
 
     object DetailsScreen : Route(route = "detailsScreen")
+
+    object FilterScreen : Route(route = "filterScreen")
 
     object AppStartNavigation : Route(route = "appStartNavigation")
 

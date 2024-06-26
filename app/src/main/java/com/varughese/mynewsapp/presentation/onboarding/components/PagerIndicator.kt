@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.onboarding.components
+package com.varughese.mynewsapp.presentation.onboarding.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -11,8 +11,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import com.loc.newsapp.presentation.Dimens.IndicatorSize
-import com.loc.newsapp.ui.theme.BlueGray
+import com.varughese.mynewsapp.presentation.Dimens.IndicatorSize
+import com.varughese.mynewsapp.ui.theme.BlueGray
 
 @Composable
 fun PagerIndicator(

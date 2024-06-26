@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.news_navigator.components
+package com.varughese.mynewsapp.presentation.news_navigator.components
 
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import androidx.annotation.DrawableRes
@@ -20,10 +20,10 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.loc.newsapp.R
-import com.loc.newsapp.presentation.Dimens
-import com.loc.newsapp.presentation.Dimens.IconSize
-import com.loc.newsapp.ui.theme.NewsAppTheme
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.presentation.Dimens
+import com.varughese.mynewsapp.presentation.Dimens.IconSize
+import com.varughese.mynewsapp.ui.theme.NewsAppTheme
 
 @Composable
 fun NewsBottomNavigation(
@@ -54,8 +54,8 @@ fun NewsBottomNavigation(
                 colors = NavigationBarItemDefaults.colors(
                     selectedIconColor = MaterialTheme.colorScheme.primary,
                     selectedTextColor = MaterialTheme.colorScheme.primary,
-                    unselectedIconColor = colorResource(id = R.color.body),
-                    unselectedTextColor = colorResource(id = R.color.body),
+                    unselectedIconColor = colorResource(id = R.color.black),
+                    unselectedTextColor = colorResource(id = R.color.black),
                     indicatorColor = MaterialTheme.colorScheme.background
                 ),
             )
@@ -72,10 +72,11 @@ data class BottomNavigationItem(
 @Preview(uiMode = UI_MODE_NIGHT_YES)
 @Composable
 fun NewsBottomNavigationPreview() {
-    NewsAppTheme(dynamicColor = false) {
+    NewsAppTheme() {
         NewsBottomNavigation(items = listOf(
             BottomNavigationItem(icon = R.drawable.ic_home, text = "Home"),
             BottomNavigationItem(icon = R.drawable.ic_search, text = "Search"),
+            BottomNavigationItem(icon = R.drawable.ic_preferences, text = "Filter"),
             BottomNavigationItem(icon = R.drawable.ic_bookmark, text = "Bookmark"),
         ), selectedItem = 0, onItemClick = {})
     }

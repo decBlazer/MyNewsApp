@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.onboarding
+package com.varughese.mynewsapp.presentation.onboarding
 
 sealed class OnBoardingEvent {
 

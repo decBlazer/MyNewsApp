@@ -1,8 +1,8 @@
-package com.loc.newsapp.domain.usecases.news
+package com.varughese.mynewsapp.domain.usecases.news
 
 import androidx.paging.PagingData
-import com.loc.newsapp.domain.model.Article
-import com.loc.newsapp.domain.repository.NewsRepository
+import com.varughese.mynewsapp.domain.model.Article
+import com.varughese.mynewsapp.domain.repository.NewsRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

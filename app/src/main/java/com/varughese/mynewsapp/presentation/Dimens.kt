@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation
+package com.varughese.mynewsapp.presentation
 
 import androidx.compose.ui.unit.dp
 

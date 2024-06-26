@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.mainActivity
+package com.varughese.mynewsapp.presentation.mainActivity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -15,13 +15,16 @@ import androidx.compose.ui.graphics.Color
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.WindowCompat
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
-import com.loc.newsapp.presentation.navgraph.NavGraph
-import com.loc.newsapp.ui.theme.NewsAppTheme
+import com.varughese.mynewsapp.BuildConfig
+import com.varughese.mynewsapp.data.local.Secrets.NEWS_API_KEY
+import com.varughese.mynewsapp.presentation.navgraph.NavGraph
+import com.varughese.mynewsapp.ui.theme.NewsAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.cio.CIO
 import io.ktor.client.request.post
 import io.ktor.client.statement.HttpResponse
+import timber.log.Timber
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -30,12 +33,15 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        if (BuildConfig.DEBUG) {
+            Timber.plant(Timber.DebugTree())
+        }
         WindowCompat.setDecorFitsSystemWindows(window, false)
         installSplashScreen().apply {
             setKeepOnScreenCondition(condition = { viewModel.splashCondition.value })
         }
         setContent {
-            NewsAppTheme(dynamicColor = false) {
+            NewsAppTheme {
                 val isSystemInDarkMode = isSystemInDarkTheme()
                 val systemUiColor = rememberSystemUiController()
                 SideEffect {
@@ -55,7 +61,7 @@ class MainActivity : ComponentActivity() {
 
 suspend fun main() {
     val client = HttpClient(CIO)
-    val response: HttpResponse = client.post("https://newsapi.org/v2/everything?q=soccer&apiKey=c5154edadbe64a0da23b8035c6aef5e9")
+    val response: HttpResponse = client.post("https://newsapi.org/v2/everything?q=soccer&apiKey=$NEWS_API_KEY")
     println(response.status)
     client.close()
 }

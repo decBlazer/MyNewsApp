@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.common
+package com.varughese.mynewsapp.presentation.common
 
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import androidx.compose.foundation.border
@@ -28,9 +28,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.loc.newsapp.R
-import com.loc.newsapp.presentation.Dimens.IconSize
-import com.loc.newsapp.ui.theme.NewsAppTheme
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.presentation.Dimens.IconSize
+import com.varughese.mynewsapp.ui.theme.NewsAppTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -54,7 +54,7 @@ fun SearchBar(
     }
 
     Box(modifier = modifier) {
-        val containerColor = colorResource(id = R.color.input_background)
+        val containerColor = colorResource(id = R.color.purple_200)
         TextField(
             modifier = Modifier
                 .fillMaxWidth()
@@ -67,14 +67,14 @@ fun SearchBar(
                     painter = painterResource(id = R.drawable.ic_search),
                     contentDescription = null,
                     modifier = Modifier.size(IconSize),
-                    tint = colorResource(id = R.color.body)
+                    tint = colorResource(id = R.color.black)
                 )
             },
             placeholder = {
                 Text(
                     text = "Search",
                     style = MaterialTheme.typography.bodySmall,
-                    color = colorResource(id = R.color.placeholder)
+                    color = colorResource(id = R.color.black)
                 )
             },
             shape = MaterialTheme.shapes.medium,
@@ -87,7 +87,7 @@ fun SearchBar(
                 unfocusedIndicatorColor = Color.Transparent,
                 disabledIndicatorColor = Color.Transparent,
                 errorIndicatorColor = Color.Transparent,
-                focusedLeadingIconColor = colorResource(id = R.color.body),
+                focusedLeadingIconColor = colorResource(id = R.color.purple_500),
                 focusedPlaceholderColor = colorResource(id = R.color.placeholder)
             ),
             singleLine = true,

@@ -1,18 +1,14 @@
-package com.loc.newsapp.di
+package com.varughese.mynewsapp.di
 
 import android.app.Application
 import androidx.room.Room
-import com.loc.newsapp.data.local.NewsDao
-import com.loc.newsapp.data.local.NewsDatabase
-import com.loc.newsapp.data.local.NewsTypeConvertor
-import com.loc.newsapp.data.remote.NewsAPI
-import com.loc.newsapp.util.Constants.BASE_URL
+import com.varughese.mynewsapp.data.local.NewsDao
+import com.varughese.mynewsapp.data.local.NewsDatabase
+import com.varughese.mynewsapp.data.local.NewsTypeConvertor
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 @Module

@@ -1,4 +1,4 @@
-package com.loc.newsapp.presentation.home
+package com.varughese.mynewsapp.presentation.home
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
@@ -27,11 +27,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.paging.compose.LazyPagingItems
-import com.loc.newsapp.R
-import com.loc.newsapp.domain.model.Article
-import com.loc.newsapp.presentation.Dimens
-import com.loc.newsapp.presentation.common.ArticlesList
-import com.loc.newsapp.presentation.common.SearchBar
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.domain.model.Article
+import com.varughese.mynewsapp.presentation.Dimens
+import com.varughese.mynewsapp.presentation.common.ArticlesList
+import com.varughese.mynewsapp.presentation.common.SearchBar
 
 
 @OptIn(ExperimentalFoundationApi::class)
@@ -69,7 +69,7 @@ fun HomeScreen(
             .statusBarsPadding()
     ) {
         Image(
-            painter = painterResource(id = R.drawable.ic_logo),
+            painter = painterResource(id = R.drawable.ic_globe),
             contentDescription = null,
             modifier = Modifier
                 .width(150.dp)
