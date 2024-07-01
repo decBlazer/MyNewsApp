@@ -32,7 +32,7 @@ class NewsPagingSource(
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, Article> {
         return try {
             val currentPage = params.key ?: 1
-            if (selectedCategory.value.equals("")) {
+            if (selectedCategory.value.equals("") || selectedCategory.value.equals("No Filter")) {
                 response =
                     httpClient.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=" + Secrets.NEWS_API_KEY) {
                     }

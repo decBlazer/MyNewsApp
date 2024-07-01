@@ -21,6 +21,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.collectAsState
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.text.style.TextAlign
 import com.varughese.mynewsapp.presentation.filter.CategoryDataSource.selectedCategory
 
 @Composable
@@ -32,8 +34,11 @@ fun FilterScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp)
+            .padding(16.dp),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
+
         CategoryFilter(viewModel = viewModel)
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -47,9 +52,13 @@ fun CategoryFilter(viewModel: FilterViewModel) {
     var expanded by remember { mutableStateOf(false) }
 
     Column {
-        Text(text = "Category")
+        Text(
+            text = "Category",
+            modifier = Modifier.padding(bottom = 8.dp),
+            textAlign = TextAlign.Center
+        )
 
-        Box {
+        Box(modifier = Modifier.fillMaxWidth()) {
             Button(onClick = { expanded = true }) {
                 Text("Select Category")
             }
@@ -70,6 +79,9 @@ fun CategoryFilter(viewModel: FilterViewModel) {
                 })
                 DropdownMenuItem(text = { Text(text = "Sports") }, onClick = {
                     viewModel.updateCategory("Sports")
+                })
+                DropdownMenuItem(text = { Text(text = "No Filter") }, onClick = {
+                    viewModel.updateCategory("No Filter")
                 })
             }
         }

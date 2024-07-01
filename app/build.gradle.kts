@@ -8,6 +8,8 @@ plugins {
     id("kotlin-parcelize")
     id("org.jetbrains.kotlin.plugin.compose") version "2.0.0"
     id("org.jetbrains.kotlin.plugin.serialization") version "2.0.0"
+    id("kotlin-android")
+    id("com.google.relay") version "0.3.12"
 }
 
 android {

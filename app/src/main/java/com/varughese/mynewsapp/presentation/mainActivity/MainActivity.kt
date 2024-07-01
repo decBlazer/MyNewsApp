@@ -25,6 +25,7 @@ import io.ktor.client.engine.cio.CIO
 import io.ktor.client.request.post
 import io.ktor.client.statement.HttpResponse
 import timber.log.Timber
+import com.varughese.mynewsapp.homescreen.HomeScreen
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -50,7 +51,9 @@ class MainActivity : ComponentActivity() {
                         darkIcons = !isSystemInDarkMode
                     )
                 }
-                Box(modifier = Modifier.background(MaterialTheme.colorScheme.background).fillMaxSize()) {
+                Box(modifier = Modifier
+                    .background(MaterialTheme.colorScheme.background)
+                    .fillMaxSize()) {
                     NavGraph(startDestination = viewModel.startDestination.value)
                 }
             }
