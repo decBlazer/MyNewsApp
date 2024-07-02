@@ -54,7 +54,7 @@ fun SearchBar(
     }
 
     Box(modifier = modifier) {
-        val containerColor = colorResource(id = R.color.purple_200)
+        val containerColor = colorResource(id = R.color.shimmer)
         TextField(
             modifier = Modifier
                 .fillMaxWidth()

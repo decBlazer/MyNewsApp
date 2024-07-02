@@ -50,6 +50,7 @@ fun HomeScreen(
 ) {
 
 
+
     val titles by remember(articles) {
         derivedStateOf {
             if (articles.itemCount > 10) {
@@ -68,19 +69,14 @@ fun HomeScreen(
         sourceToUse = viewModel.switchNews()
     }
 
+    HomeScreenFigma()
+
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(top = Dimens.MediumPadding1)
             .statusBarsPadding()
     ) {
-        Text(
-            text = "News Application",
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = Dimens.MediumPadding1),
-            fontSize = 24.sp
-        )
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -88,16 +84,9 @@ fun HomeScreen(
                 .padding(top = 0.dp),
             horizontalArrangement = Arrangement.End
         ) {
-            Image(
-                painter = painterResource(id = R.drawable.ic_android),
-                contentDescription = null,
-                modifier = Modifier
-                    .padding(end = Dimens.MediumPadding1)
-                    .size(200.dp, 100.dp)
-            )
         }
 
-        Spacer(modifier = Modifier.height(Dimens.MediumPadding1))
+        Spacer(modifier = Modifier.height(125.dp))
 
         SearchBar(
             modifier = Modifier
@@ -112,23 +101,6 @@ fun HomeScreen(
 
         Spacer(modifier = Modifier.height(Dimens.MediumPadding1))
 
-        Button(
-            onClick = {
-                viewModel.switchNews()
-            },
-            modifier = Modifier
-                .padding(horizontal = Dimens.MediumPadding1)
-                .fillMaxWidth()
-        ) {
-            Text(
-                text = if (sourceToUse == listOf(
-                        "bbc-news",
-                        "abc-news",
-                        "al-jazeera-english"
-                    )
-                ) "Global News" else "Sports"
-            )
-        }
 
         Text(
             text = titles, modifier = Modifier

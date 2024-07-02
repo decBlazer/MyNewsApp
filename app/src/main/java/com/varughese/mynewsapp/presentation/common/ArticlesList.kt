@@ -52,9 +52,9 @@ fun ArticlesList(
 
 
     if (handlePagingResult) {
-        LazyRow(
+        LazyColumn(
             modifier = modifier.fillMaxSize(),
-            horizontalArrangement = Arrangement.spacedBy(MediumPadding1),
+            verticalArrangement = Arrangement.spacedBy(MediumPadding1),
             contentPadding = PaddingValues(all = ExtraSmallPadding2)
         ) {
             items(

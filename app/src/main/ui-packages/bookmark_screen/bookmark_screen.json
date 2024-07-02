@@ -1,0 +1,80 @@
+{
+  "name": "bookmark_screen",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Ybh9EAxlMoINKnIpxpAH5k",
+    "node": "38:3958",
+    "version": "6120102164",
+    "component-id": "cefa73fe526b8cbb2ad174a0148bb57f45f25cbc"
+  },
+  "default": "Bookmark Screen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "bottomnav/4",
+        "key": "bottomnav_4"
+      }
+    ],
+    "modes": {
+      "Bookmark Screen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "bottomnav/4"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 251.92052980132448,
+              "saturation": 0.592156862745098,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "bottomnav/4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 709.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 375.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 91.0
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Bookmark Screen",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

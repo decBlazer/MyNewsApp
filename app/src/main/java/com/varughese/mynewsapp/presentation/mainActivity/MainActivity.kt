@@ -26,6 +26,7 @@ import io.ktor.client.request.post
 import io.ktor.client.statement.HttpResponse
 import timber.log.Timber
 import com.varughese.mynewsapp.homescreen.HomeScreen
+import com.varughese.mynewsapp.presentation.splash.SplashScreen
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -38,9 +39,7 @@ class MainActivity : ComponentActivity() {
             Timber.plant(Timber.DebugTree())
         }
         WindowCompat.setDecorFitsSystemWindows(window, false)
-        installSplashScreen().apply {
-            setKeepOnScreenCondition(condition = { viewModel.splashCondition.value })
-        }
+
         setContent {
             NewsAppTheme {
                 val isSystemInDarkMode = isSystemInDarkTheme()
@@ -51,20 +50,28 @@ class MainActivity : ComponentActivity() {
                         darkIcons = !isSystemInDarkMode
                     )
                 }
-                Box(modifier = Modifier
-                    .background(MaterialTheme.colorScheme.background)
-                    .fillMaxSize()) {
-                    NavGraph(startDestination = viewModel.startDestination.value)
+                SplashScreen {
+
+                    setContent {
+                        Box(
+                            modifier = Modifier
+                                .background(MaterialTheme.colorScheme.background)
+                                .fillMaxSize()
+                        ) {
+                            NavGraph(startDestination = viewModel.startDestination.value)
+                        }
+                    }
                 }
             }
         }
     }
-}
 
 
-suspend fun main() {
-    val client = HttpClient(CIO)
-    val response: HttpResponse = client.post("https://newsapi.org/v2/everything?q=soccer&apiKey=$NEWS_API_KEY")
-    println(response.status)
-    client.close()
+    suspend fun main() {
+        val client = HttpClient(CIO)
+        val response: HttpResponse =
+            client.post("https://newsapi.org/v2/everything?q=soccer&apiKey=$NEWS_API_KEY")
+        println(response.status)
+        client.close()
+    }
 }

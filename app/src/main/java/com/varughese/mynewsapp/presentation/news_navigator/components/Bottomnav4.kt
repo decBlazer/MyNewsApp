@@ -42,7 +42,7 @@ fun Bottomnav4(
     NavigationBar(
         modifier = modifier
             .fillMaxWidth()
-            .height(56.dp), // Typical height of bottom navigation bar
+            .height(100.dp), // Typical height of bottom navigation bar
         containerColor = MaterialTheme.colorScheme.background,
         tonalElevation = 10.dp
     ) {

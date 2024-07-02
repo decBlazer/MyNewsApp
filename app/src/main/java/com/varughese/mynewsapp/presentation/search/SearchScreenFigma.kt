@@ -26,7 +26,7 @@ import com.varughese.mynewsapp.bottomnav4.Bottomnav4
  * Generated code; do not edit directly
  */
 @Composable
-fun SearchScreen(modifier: Modifier = Modifier) {
+fun SearchScreenFigma(modifier: Modifier = Modifier) {
     TopLevel(modifier = modifier) {
         SearchBar(
             modifier = Modifier.boxAlign(
@@ -34,15 +34,6 @@ fun SearchScreen(modifier: Modifier = Modifier) {
                 offset = DpOffset(
                     x = 27.0.dp,
                     y = 50.0.dp
-                )
-            )
-        )
-        Bottomnav4Instance(
-            modifier = Modifier.boxAlign(
-                alignment = Alignment.TopStart,
-                offset = DpOffset(
-                    x = 0.0.dp,
-                    y = 709.0.dp
                 )
             )
         )
@@ -54,7 +45,7 @@ fun SearchScreen(modifier: Modifier = Modifier) {
 private fun SearchScreenPreview() {
     MaterialTheme {
         RelayContainer {
-            SearchScreen(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
+            SearchScreenFigma(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
         }
     }
 }
@@ -67,10 +58,6 @@ fun SearchBar(modifier: Modifier = Modifier) {
     )
 }
 
-@Composable
-fun Bottomnav4Instance(modifier: Modifier = Modifier) {
-    Bottomnav4(modifier = modifier.requiredWidth(375.0.dp).requiredHeight(91.0.dp))
-}
 
 @Composable
 fun TopLevel(

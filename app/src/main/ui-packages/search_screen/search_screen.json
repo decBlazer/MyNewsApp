@@ -1,0 +1,111 @@
+{
+  "name": "search_screen",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Ybh9EAxlMoINKnIpxpAH5k",
+    "node": "38:3863",
+    "version": "6108528342",
+    "component-id": "5120719f76c682811b6675cf73c3b0716c29cf4f"
+  },
+  "default": "Search Screen",
+  "documentation": "Search Screen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Search Bar"
+      },
+      {
+        "type": "adin_component",
+        "id": "bottomnav/4",
+        "key": "bottomnav_4"
+      }
+    ],
+    "modes": {
+      "Search Screen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Search Bar",
+              "bottomnav/4"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 251.92052980132448,
+              "saturation": 0.592156862745098,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Search Bar",
+            "border-radius": 30.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 27.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 50.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 306.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.0
+              }
+            },
+            "vector-content": "search_bar.svg"
+          },
+          {
+            "id": "bottomnav/4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 709.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 375.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 91.0
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Search Screen",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

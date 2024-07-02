@@ -1,0 +1,196 @@
+{
+  "name": "home_screen",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Ybh9EAxlMoINKnIpxpAH5k",
+    "node": "28:3499",
+    "version": "6120133923",
+    "component-id": "d1a7bc4cf87dd534e10cdb8cda8832eeacfcc63e"
+  },
+  "default": "Home Screen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Search Bar"
+      },
+      {
+        "type": "adin_component",
+        "id": "bottomnav/4",
+        "key": "bottomnav_4"
+      },
+      {
+        "type": "text",
+        "id": "Varughese News"
+      },
+      {
+        "type": "group",
+        "id": "brightness_4"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "Home Screen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Search Bar",
+              "bottomnav/4",
+              "Varughese News",
+              "brightness_4"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 251.92052980132448,
+              "saturation": 0.592156862745098,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Search Bar",
+            "border-radius": 30.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 27.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 148.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 306.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.0
+              }
+            },
+            "vector-content": "search_bar.svg"
+          },
+          {
+            "id": "bottomnav/4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 709.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 375.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 91.0
+              }
+            }
+          },
+          {
+            "id": "Varughese News",
+            "margin": {
+              "left": 55.0,
+              "top": 109.0,
+              "right": 40.0,
+              "bottom": 652.0
+            },
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 4.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 800.0,
+            "text-content": "Varughese News",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 24.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "brightness_4",
+            "margin": {
+              "left": 123.0,
+              "top": 2.0,
+              "right": 124.0,
+              "bottom": 691.0
+            },
+            "is-structured": false,
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": 3.248748779296875,
+              "top": 3.076263427734375,
+              "right": 3.248748779296875,
+              "bottom": 3.0762481689453125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector4.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Home Screen",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,2784 @@
+{
+  "name": "filter_screen",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Ybh9EAxlMoINKnIpxpAH5k",
+    "node": "38:3926",
+    "version": "6108537704",
+    "component-id": "21dacdad64ca177fbbeaea37f137485eaa392b1a"
+  },
+  "default": "Filter Screen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "bottomnav/4",
+        "key": "bottomnav_4"
+      },
+      {
+        "type": "group",
+        "id": "Dropdown Box"
+      },
+      {
+        "type": "text",
+        "id": "Choose a Category"
+      },
+      {
+        "type": "group",
+        "id": "Header"
+      },
+      {
+        "type": "group",
+        "id": "Items Frame"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/plus"
+      },
+      {
+        "type": "group",
+        "id": "Category"
+      },
+      {
+        "type": "group",
+        "id": "Health"
+      },
+      {
+        "type": "group",
+        "id": "Science"
+      },
+      {
+        "type": "group",
+        "id": "Technology"
+      },
+      {
+        "type": "group",
+        "id": "Sports"
+      },
+      {
+        "type": "group",
+        "id": "No Filter"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/chevron-down-s"
+      },
+      {
+        "type": "vector",
+        "id": "Icon"
+      },
+      {
+        "type": "text",
+        "id": "Category1"
+      },
+      {
+        "type": "text",
+        "id": "Health1"
+      },
+      {
+        "type": "text",
+        "id": "Science1"
+      },
+      {
+        "type": "text",
+        "id": "Technology1"
+      },
+      {
+        "type": "text",
+        "id": "Sports1"
+      },
+      {
+        "type": "text",
+        "id": "No Filter1"
+      },
+      {
+        "type": "vector",
+        "id": "Icon1"
+      },
+      {
+        "type": "group",
+        "id": "Items List"
+      },
+      {
+        "type": "group",
+        "id": "Item Hover"
+      },
+      {
+        "type": "group",
+        "id": "Item Hover1"
+      },
+      {
+        "type": "group",
+        "id": "Item Hover2"
+      },
+      {
+        "type": "group",
+        "id": "Item Hover3"
+      },
+      {
+        "type": "group",
+        "id": "Item Hover4"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/plus1"
+      },
+      {
+        "type": "group",
+        "id": "Health2"
+      },
+      {
+        "type": "group",
+        "id": "Science2"
+      },
+      {
+        "type": "group",
+        "id": "Technology2"
+      },
+      {
+        "type": "group",
+        "id": "Sports2"
+      },
+      {
+        "type": "group",
+        "id": "No Filter2"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/chevron-down-s1"
+      },
+      {
+        "type": "vector",
+        "id": "Icon2"
+      },
+      {
+        "type": "text",
+        "id": "Health3"
+      },
+      {
+        "type": "text",
+        "id": "Science3"
+      },
+      {
+        "type": "text",
+        "id": "Technology3"
+      },
+      {
+        "type": "text",
+        "id": "Sports3"
+      },
+      {
+        "type": "text",
+        "id": "No Filter3"
+      },
+      {
+        "type": "vector",
+        "id": "Icon3"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/plus2"
+      },
+      {
+        "type": "group",
+        "id": "Health4"
+      },
+      {
+        "type": "group",
+        "id": "Science4"
+      },
+      {
+        "type": "group",
+        "id": "Technology4"
+      },
+      {
+        "type": "group",
+        "id": "Sports4"
+      },
+      {
+        "type": "group",
+        "id": "No Filter4"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/chevron-down-s2"
+      },
+      {
+        "type": "vector",
+        "id": "Icon4"
+      },
+      {
+        "type": "text",
+        "id": "Health5"
+      },
+      {
+        "type": "text",
+        "id": "Science5"
+      },
+      {
+        "type": "text",
+        "id": "Technology5"
+      },
+      {
+        "type": "text",
+        "id": "Sports5"
+      },
+      {
+        "type": "text",
+        "id": "No Filter5"
+      },
+      {
+        "type": "vector",
+        "id": "Icon5"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/plus3"
+      },
+      {
+        "type": "group",
+        "id": "Health6"
+      },
+      {
+        "type": "group",
+        "id": "Science6"
+      },
+      {
+        "type": "group",
+        "id": "Technology6"
+      },
+      {
+        "type": "group",
+        "id": "Sports6"
+      },
+      {
+        "type": "group",
+        "id": "No Filter6"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/chevron-down-s3"
+      },
+      {
+        "type": "vector",
+        "id": "Icon6"
+      },
+      {
+        "type": "text",
+        "id": "Health7"
+      },
+      {
+        "type": "text",
+        "id": "Science7"
+      },
+      {
+        "type": "text",
+        "id": "Technology7"
+      },
+      {
+        "type": "text",
+        "id": "Sports7"
+      },
+      {
+        "type": "text",
+        "id": "No Filter7"
+      },
+      {
+        "type": "vector",
+        "id": "Icon7"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/plus4"
+      },
+      {
+        "type": "group",
+        "id": "Health8"
+      },
+      {
+        "type": "group",
+        "id": "Science8"
+      },
+      {
+        "type": "group",
+        "id": "Technology8"
+      },
+      {
+        "type": "group",
+        "id": "Sports8"
+      },
+      {
+        "type": "group",
+        "id": "No Filter8"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/chevron-down-s4"
+      },
+      {
+        "type": "vector",
+        "id": "Icon8"
+      },
+      {
+        "type": "text",
+        "id": "Health9"
+      },
+      {
+        "type": "text",
+        "id": "Science9"
+      },
+      {
+        "type": "text",
+        "id": "Technology9"
+      },
+      {
+        "type": "text",
+        "id": "Sports9"
+      },
+      {
+        "type": "text",
+        "id": "No Filter9"
+      },
+      {
+        "type": "vector",
+        "id": "Icon9"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/plus5"
+      },
+      {
+        "type": "group",
+        "id": "Health10"
+      },
+      {
+        "type": "group",
+        "id": "Science10"
+      },
+      {
+        "type": "group",
+        "id": "Technology10"
+      },
+      {
+        "type": "group",
+        "id": "Sports10"
+      },
+      {
+        "type": "group",
+        "id": "No Filter10"
+      },
+      {
+        "type": "group",
+        "id": "icons/regular/chevron-down-s5"
+      },
+      {
+        "type": "vector",
+        "id": "Icon10"
+      },
+      {
+        "type": "text",
+        "id": "Health11"
+      },
+      {
+        "type": "text",
+        "id": "Science11"
+      },
+      {
+        "type": "text",
+        "id": "Technology11"
+      },
+      {
+        "type": "text",
+        "id": "Sports11"
+      },
+      {
+        "type": "text",
+        "id": "No Filter11"
+      },
+      {
+        "type": "vector",
+        "id": "Icon11"
+      }
+    ],
+    "modes": {
+      "Filter Screen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "bottomnav/4",
+              "Dropdown Box",
+              "Choose a Category"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 251.92052980132448,
+              "saturation": 0.592156862745098,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "bottomnav/4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 709.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 375.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 91.0
+              }
+            }
+          },
+          {
+            "id": "Dropdown Box",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 178.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 266.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 82.19615173339844
+              }
+            },
+            "children": [
+              "Header",
+              "Items Frame"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Choose a Category",
+            "margin": {
+              "left": 47.0,
+              "top": 62.0,
+              "right": 48.0,
+              "bottom": 699.0
+            },
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 4.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 800.0,
+            "text-content": "Choose a Category",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 24.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Header",
+            "padding": {
+              "left": 34.407691955566406,
+              "top": 21.02692413330078,
+              "right": 34.407691955566406,
+              "bottom": 21.02692413330078
+            },
+            "border-radius": 15.29230785369873,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": 2.484999895095825,
+            "stroke-alignment": "outside",
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 223.63636363636368,
+              "saturation": 0.056701030927834996,
+              "value": 0.7607843137254902
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "icons/regular/plus",
+              "Category",
+              "Health",
+              "Science",
+              "Technology",
+              "Sports",
+              "No Filter",
+              "icons/regular/chevron-down-s"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Items Frame",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1.9115384817123413
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Items List"
+            ]
+          },
+          {
+            "id": "icons/regular/plus",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Category",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Category1"
+            ],
+            "item-spacing": 19.115385055541992,
+            "clip-content": false
+          },
+          {
+            "id": "Health",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 86.01923370361328
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Health1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Science",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Science1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Technology",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Technology1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Sports",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 95.5769271850586
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Sports1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "No Filter",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "No Filter1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "icons/regular/chevron-down-s",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Icon",
+            "margin": {
+              "left": 3.185791015625,
+              "top": 3.1859130859375,
+              "right": 3.186002731323242,
+              "bottom": 3.185880661010742
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Category1",
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Category",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Health1",
+            "margin": {
+              "right": 6.019233703613281
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Health",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Science1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Science\n",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Technology1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Technology",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Sports1",
+            "margin": {
+              "right": 17.576927185058594
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Sports",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "No Filter1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "No Filter",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Icon1",
+            "margin": {
+              "left": 7.964599609375,
+              "top": 14.3365478515625,
+              "right": 7.9648895263671875,
+              "bottom": 11.15063190460205
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "icon.svg"
+          },
+          {
+            "id": "Items List",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": 416.7153993844986
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 416.71539306640625
+              }
+            },
+            "main-axis-align": "end",
+            "children": [
+              "Item Hover",
+              "Item Hover1",
+              "Item Hover2",
+              "Item Hover3",
+              "Item Hover4"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Item Hover",
+            "padding": {
+              "left": 45.876922607421875,
+              "top": 21.02692413330078,
+              "right": 45.876922607421875,
+              "bottom": 21.02692413330078
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "icons/regular/plus1",
+              "Health2",
+              "Science2",
+              "Technology2",
+              "Sports2",
+              "No Filter2",
+              "icons/regular/chevron-down-s1"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Item Hover1",
+            "padding": {
+              "left": 45.876922607421875,
+              "top": 21.02692413330078,
+              "right": 45.876922607421875,
+              "bottom": 21.02692413330078
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "icons/regular/plus2",
+              "Health4",
+              "Science4",
+              "Technology4",
+              "Sports4",
+              "No Filter4",
+              "icons/regular/chevron-down-s2"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Item Hover2",
+            "padding": {
+              "left": 45.876922607421875,
+              "top": 21.02692413330078,
+              "right": 45.876922607421875,
+              "bottom": 21.02692413330078
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "icons/regular/plus3",
+              "Health6",
+              "Science6",
+              "Technology6",
+              "Sports6",
+              "No Filter6",
+              "icons/regular/chevron-down-s3"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Item Hover3",
+            "padding": {
+              "left": 45.876922607421875,
+              "top": 21.02692413330078,
+              "right": 45.876922607421875,
+              "bottom": 21.02692413330078
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "icons/regular/plus4",
+              "Health8",
+              "Science8",
+              "Technology8",
+              "Sports8",
+              "No Filter8",
+              "icons/regular/chevron-down-s4"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Item Hover4",
+            "padding": {
+              "left": 45.876922607421875,
+              "top": 21.02692413330078,
+              "right": 45.876922607421875,
+              "bottom": 21.02692413330078
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "icons/regular/plus5",
+              "Health10",
+              "Science10",
+              "Technology10",
+              "Sports10",
+              "No Filter10",
+              "icons/regular/chevron-down-s5"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "icons/regular/plus1",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Health2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 86.01923370361328
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Health3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Science2",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Science3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Technology2",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Technology3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Sports2",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 95.5769271850586
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Sports3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "No Filter2",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "No Filter3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "icons/regular/chevron-down-s1",
+            "opacity": 0.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Icon2",
+            "margin": {
+              "left": 3.185791015625,
+              "top": 3.1859054565429688,
+              "right": 3.186002731323242,
+              "bottom": 3.1858882904052734
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Health3",
+            "margin": {
+              "right": 6.019233703613281
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Health",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Science3",
+            "margin": {
+              "right": 14.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label2",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Technology3",
+            "margin": {
+              "right": 13.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label3",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Sports3",
+            "margin": {
+              "right": 14.576927185058594
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label4",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "No Filter3",
+            "margin": {
+              "right": 12.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label5",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Icon3",
+            "margin": {
+              "left": 7.964599609375,
+              "top": 14.336540222167969,
+              "right": 7.9648895263671875,
+              "bottom": 11.150639533996582
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "icons/regular/plus2",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon4"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Health4",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 86.01923370361328
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Health5"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Science4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Science5"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Technology4",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Technology5"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Sports4",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 95.5769271850586
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Sports5"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "No Filter4",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "No Filter5"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "icons/regular/chevron-down-s2",
+            "opacity": 0.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon5"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Icon4",
+            "margin": {
+              "left": 3.185791015625,
+              "top": 3.1859092712402344,
+              "right": 3.186002731323242,
+              "bottom": 3.185884475708008
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Health5",
+            "margin": {
+              "right": 12.019233703613281
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label1",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Science5",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Science",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Technology5",
+            "margin": {
+              "right": 13.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label3",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Sports5",
+            "margin": {
+              "right": 14.576927185058594
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label4",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "No Filter5",
+            "margin": {
+              "right": 12.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label5",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Icon5",
+            "margin": {
+              "left": 7.964599609375,
+              "top": 14.336536407470703,
+              "right": 7.9648895263671875,
+              "bottom": 11.150643348693848
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "icons/regular/plus3",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon6"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Health6",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 86.01923370361328
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Health7"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Science6",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Science7"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Technology6",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Technology7"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Sports6",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 95.5769271850586
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Sports7"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "No Filter6",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "No Filter7"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "icons/regular/chevron-down-s3",
+            "opacity": 0.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon7"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Icon6",
+            "margin": {
+              "left": 3.185791015625,
+              "top": 3.185894012451172,
+              "right": 3.186002731323242,
+              "bottom": 3.1858997344970703
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Health7",
+            "margin": {
+              "right": 12.019233703613281
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label1",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Science7",
+            "margin": {
+              "right": 14.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label2",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Technology7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Technology",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Sports7",
+            "margin": {
+              "right": 14.576927185058594
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label4",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "No Filter7",
+            "margin": {
+              "right": 12.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label5",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Icon7",
+            "margin": {
+              "left": 7.964599609375,
+              "top": 14.336540222167969,
+              "right": 7.9648895263671875,
+              "bottom": 11.150639533996582
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "icons/regular/plus4",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon8"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Health8",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 86.01923370361328
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Health9"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Science8",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Science9"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Technology8",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Technology9"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Sports8",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 95.5769271850586
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Sports9"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "No Filter8",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "No Filter9"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "icons/regular/chevron-down-s4",
+            "opacity": 0.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon9"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Icon8",
+            "margin": {
+              "left": 3.185791015625,
+              "top": 3.1859054565429688,
+              "right": 3.186002731323242,
+              "bottom": 3.1858882904052734
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Health9",
+            "margin": {
+              "right": 12.019233703613281
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label1",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Science9",
+            "margin": {
+              "right": 14.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label2",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Technology9",
+            "margin": {
+              "right": 13.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label3",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Sports9",
+            "margin": {
+              "right": 17.576927185058594
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Sports",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "No Filter9",
+            "margin": {
+              "right": 12.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label5",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Icon9",
+            "margin": {
+              "left": 7.964599609375,
+              "top": 14.336540222167969,
+              "right": 7.9648895263671875,
+              "bottom": 11.150639533996582
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "icons/regular/plus5",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon10"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Health10",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 86.01923370361328
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Health11"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Science10",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Science11"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Technology10",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Technology11"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Sports10",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 95.5769271850586
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Sports11"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "No Filter10",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 93.6653823852539
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.407691955566406
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "No Filter11"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "icons/regular/chevron-down-s5",
+            "opacity": 0.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.230770111083984
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon11"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Icon10",
+            "margin": {
+              "left": 3.185791015625,
+              "top": 3.1858978271484375,
+              "right": 3.186002731323242,
+              "bottom": 3.1858959197998047
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Health11",
+            "margin": {
+              "right": 12.019233703613281
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label1",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Science11",
+            "margin": {
+              "right": 14.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label2",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Technology11",
+            "margin": {
+              "right": 13.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label3",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Sports11",
+            "margin": {
+              "right": 14.576927185058594
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Label4",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "No Filter11",
+            "margin": {
+              "right": 6.665382385253906
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 243.15789473684214,
+              "saturation": 0.28358208955223885,
+              "value": 0.2627450980392157
+            },
+            "text-content": "Politics",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "letter-spacing": 0.36,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Icon11",
+            "margin": {
+              "left": 7.964599609375,
+              "top": 14.336532592773438,
+              "right": 7.9648895263671875,
+              "bottom": 11.150647163391113
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Filter Screen",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

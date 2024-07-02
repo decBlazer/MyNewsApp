@@ -31,26 +31,11 @@ fun BookmarkScreen(
     state: BookmarkState,
     navigateToDetails: (Article) -> Unit
 ) {
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .statusBarsPadding()
-            .padding(top = MediumPadding1, start = MediumPadding1, end = MediumPadding1)
-    ) {
+    BookmarkScreenFigma()
 
-        Text(
-            text = "Bookmark",
-            style = MaterialTheme.typography.displayMedium.copy(fontWeight = FontWeight.Bold),
-            color = colorResource(
-                id = R.color.purple_200
-            )
-        )
-
-        Spacer(modifier = Modifier.height(MediumPadding1))
 
         ArticlesList(
             articles = state.articles,
             onClick = navigateToDetails
         )
     }
-}

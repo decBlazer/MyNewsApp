@@ -1,5 +1,6 @@
 package com.varughese.mynewsapp.presentation.filter
 
+import android.graphics.Paint.Align
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -25,63 +26,101 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.text.style.TextAlign
 import com.varughese.mynewsapp.presentation.filter.CategoryDataSource.selectedCategory
 
+// Figma
+
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.requiredHeight
+import androidx.compose.foundation.layout.requiredWidth
+import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shadow
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.DpOffset
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.em
+import androidx.compose.ui.unit.sp
+import com.google.relay.compose.BorderAlignment
+import com.google.relay.compose.BoxScopeInstance.boxAlign
+import com.google.relay.compose.MainAxisAlignment
+import com.google.relay.compose.RelayContainer
+import com.google.relay.compose.RelayContainerArrangement
+import com.google.relay.compose.RelayContainerScope
+import com.google.relay.compose.RelayText
+import com.google.relay.compose.RelayVector
+import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.bottomnav4.Bottomnav4
+
 @Composable
 fun FilterScreen(
     viewModel: FilterViewModel = hiltViewModel(),
 ) {
     val selectedCategory by selectedCategory.collectAsState()
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-
-        CategoryFilter(viewModel = viewModel)
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        Text(text = "Selected Category: $selectedCategory")
-    }
+    FilterScreenFigma(modifier = Modifier.fillMaxWidth())
+    CategoryFilter(viewModel = viewModel)
 }
 
 @Composable
 fun CategoryFilter(viewModel: FilterViewModel) {
     var expanded by remember { mutableStateOf(false) }
+    var categoryText by remember { mutableStateOf("Select Category") }
+    Box(
+        modifier = Modifier.fillMaxSize()
+            .padding(16.dp)
+            .wrapContentSize(Alignment.Center),
+        contentAlignment = Alignment.Center
+    ) {
+        Column(
+            modifier = Modifier.fillMaxWidth()
+                .padding(16.dp),
+            verticalArrangement = Arrangement.Top,
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
 
-    Column {
-        Text(
-            text = "Category",
-            modifier = Modifier.padding(bottom = 8.dp),
-            textAlign = TextAlign.Center
-        )
-
-        Box(modifier = Modifier.fillMaxWidth()) {
-            Button(onClick = { expanded = true }) {
-                Text("Select Category")
+            Button(onClick = { expanded = true },
+                modifier = Modifier.fillMaxWidth().height(56.dp)) {
+                Text(categoryText)
             }
 
             DropdownMenu(
                 expanded = expanded,
-                onDismissRequest = { expanded = false }
+                onDismissRequest = { expanded = false },
+                modifier = Modifier
+                    .width(240.dp)
+                    .wrapContentHeight()
+                    .align(Alignment.CenterHorizontally)
             ) {
                 DropdownMenuItem(text = { Text(text = "Technology") }, onClick = {
                     viewModel.updateCategory("Technology")
                     expanded = false
+                    categoryText = "Technology"
                 })
                 DropdownMenuItem(text = { Text(text = "Health") }, onClick = {
                     viewModel.updateCategory("Health")
+                    expanded = false
+                    categoryText = "Health"
                 })
                 DropdownMenuItem(text = { Text(text = "Science") }, onClick = {
                     viewModel.updateCategory("Science")
+                    expanded = false
+                    categoryText = "Science"
                 })
                 DropdownMenuItem(text = { Text(text = "Sports") }, onClick = {
                     viewModel.updateCategory("Sports")
+                    expanded = false
+                    categoryText = "Sports"
                 })
                 DropdownMenuItem(text = { Text(text = "No Filter") }, onClick = {
                     viewModel.updateCategory("No Filter")
+                    expanded = false
+                    categoryText = "No Filter"
                 })
             }
         }

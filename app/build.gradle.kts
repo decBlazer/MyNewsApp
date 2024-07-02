@@ -66,6 +66,7 @@ dependencies {
     implementation(libs.material3)
     implementation(libs.paging.compose)
     implementation(libs.paging.runtime.ktx)
+    implementation(libs.androidx.appcompat)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
@@ -132,4 +133,8 @@ dependencies {
     implementation(libs.androidx.activity.compose.v140)
     implementation(libs.androidx.runtime.livedata)
     implementation(libs.androidx.runtime.rxjava2)
+
+    implementation(libs.coil.compose.v210)
+    implementation(libs.coil.gif)
+    implementation(libs.splashscreen)
 }

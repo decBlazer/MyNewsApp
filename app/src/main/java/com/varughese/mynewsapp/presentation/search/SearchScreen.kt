@@ -22,7 +22,7 @@ fun SearchScreen(
     event:(SearchEvent) -> Unit,
     navigateToDetails:(Article) -> Unit
 ) {
-
+    SearchScreenFigma()
     Column(
         modifier = Modifier
             .padding(top = MediumPadding1, start = MediumPadding1, end = MediumPadding1)

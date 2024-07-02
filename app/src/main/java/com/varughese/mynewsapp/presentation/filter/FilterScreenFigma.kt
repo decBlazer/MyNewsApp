@@ -40,87 +40,8 @@ import com.varughese.mynewsapp.bottomnav4.Bottomnav4
  * Generated code; do not edit directly
  */
 @Composable
-fun FilterScreen(modifier: Modifier = Modifier) {
+fun FilterScreenFigma(modifier: Modifier = Modifier) {
     TopLevel(modifier = modifier) {
-        Bottomnav4Instance(
-            modifier = Modifier.boxAlign(
-                alignment = Alignment.TopStart,
-                offset = DpOffset(
-                    x = 0.0.dp,
-                    y = 709.0.dp
-                )
-            )
-        )
-        DropdownBox(
-            modifier = Modifier.boxAlign(
-                alignment = Alignment.TopCenter,
-                offset = DpOffset(
-                    x = 0.0.dp,
-                    y = 178.0.dp
-                )
-            )
-        ) {
-            Header(modifier = Modifier.rowWeight(1.0f)) {
-                Category {
-                    Category1()
-                }
-                IconsRegularChevronDownS {
-                    Icon1(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                }
-            }
-            ItemsFrame(modifier = Modifier.rowWeight(1.0f)) {
-                ItemsList(
-                    modifier = Modifier.boxAlign(
-                        alignment = Alignment.BottomStart,
-                        offset = DpOffset(
-                            x = 0.0.dp,
-                            y = 416.7153993844986.dp
-                        )
-                    ).rowWeight(1.0f)
-                ) {
-                    ItemHover(modifier = Modifier.rowWeight(1.0f)) {
-                        Health2 {
-                            Health3(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                        }
-                        IconsRegularChevronDownS1 {
-                            Icon3(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                        }
-                    }
-                    ItemHover1(modifier = Modifier.rowWeight(1.0f)) {
-                        Science4 {
-                            Science5(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                        }
-                        IconsRegularChevronDownS2 {
-                            Icon5(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                        }
-                    }
-                    ItemHover2(modifier = Modifier.rowWeight(1.0f)) {
-                        Technology6 {
-                            Technology7(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                        }
-                        IconsRegularChevronDownS3 {
-                            Icon7(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                        }
-                    }
-                    ItemHover3(modifier = Modifier.rowWeight(1.0f)) {
-                        Sports8 {
-                            Sports9(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                        }
-                        IconsRegularChevronDownS4 {
-                            Icon9(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                        }
-                    }
-                    ItemHover4(modifier = Modifier.rowWeight(1.0f)) {
-                        NoFilter10 {
-                            NoFilter11(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                        }
-                        IconsRegularChevronDownS5 {
-                            Icon11(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
-                        }
-                    }
-                }
-            }
-        }
         ChooseACategory(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
     }
 }
@@ -130,7 +51,7 @@ fun FilterScreen(modifier: Modifier = Modifier) {
 private fun FilterScreenPreview() {
     MaterialTheme {
         RelayContainer {
-            FilterScreen(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
+            FilterScreenFigma(modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f))
         }
     }
 }
