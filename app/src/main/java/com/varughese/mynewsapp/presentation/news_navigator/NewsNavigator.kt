@@ -20,6 +20,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.varughese.mynewsapp.R
+import com.varughese.mynewsapp.bottomnav4.Bottomnav4
 import com.varughese.mynewsapp.domain.model.Article
 import com.varughese.mynewsapp.presentation.bookmark.BookmarkScreen
 import com.varughese.mynewsapp.presentation.bookmark.BookmarkViewModel
@@ -35,7 +36,6 @@ import com.varughese.mynewsapp.presentation.news_navigator.components.NewsBottom
 import com.varughese.mynewsapp.presentation.search.SearchScreen
 import com.varughese.mynewsapp.presentation.search.SearchViewModel
 import java.util.logging.Filter
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun NewsNavigator() {
@@ -73,7 +73,7 @@ fun NewsNavigator() {
 
     Scaffold(modifier = Modifier.fillMaxSize(), bottomBar = {
         if (isBottomBarVisible) {
-            NewsBottomNavigation(
+            com.varughese.mynewsapp.presentation.news_navigator.components.Bottomnav4(
                 items = bottomNavigationItems,
                 selectedItem = selectedItem,
                 onItemClick = { index ->
